@@ -151,6 +151,9 @@
 	p {
 		margin: 0 0 1.25em 0;
 	}
+	span {
+		color:#f06d6a;
+	};
 
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 400;
@@ -163,6 +166,10 @@
 			color: inherit;
 			text-decoration: none;
 		}
+
+	h1 {
+		color: #333;
+	}
 
 	h2 {
 		font-size: 1.25em;
