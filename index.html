@@ -9,6 +9,7 @@ layout: default
     <h1>{{ site.header }}</h1>
     <h2>{{ site.subheader }}</h2>
     <p>{{ site.bio }}</p>
+    <p><span class="love-icon">{{ site.love }}</span></p>
     {% if site.social %}
       <ul class="icons">
         {% if site.social.twitter_username and site.social.twitter_username != "" %}
@@ -44,7 +45,7 @@ layout: default
   <!-- Footer -->
   <footer id="footer">
     <ul class="copyright">
-      <li>{{ site.copyright }}</li>
+      <li>{{ site.copyright }}<span class="love-icon">{{ site.love }}</span>{{ site.designer }}</li>
       <li>Powered by <a href="https://jekyllrb.com/">Jekyll</a> and <a href="https://github.com/ElasticDesigns/jekyll-lens">Jekyll Lens</a></li>
     </ul>
   </footer>

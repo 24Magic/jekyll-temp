@@ -151,9 +151,6 @@
 	p {
 		margin: 0 0 1.25em 0;
 	}
-	span {
-		color:#f06d6a;
-	};
 
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 400;
@@ -826,6 +823,10 @@
 			font-weight: 700;
 		}
 
+		#header p .love-icon {
+			color: #f06d6a;
+		}
+
 /* Footer */
 
 	#footer {
@@ -847,6 +848,10 @@
 				#footer .copyright li:first-child {
 					margin-left: 0;
 				}
+
+					#footer .copyright li .love-icon {
+						color: #f06d6a;
+					}
 
 /* Thumbnails */
 
