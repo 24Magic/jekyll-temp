@@ -1,0 +1,23 @@
+{
+  "name": "jekyll-temp",
+  "version": "1.0.0",
+  "description": "![Jekyll Lens](https://i.imgur.com/Qi7gdQC.png)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/24Magic/jekyll-temp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/24Magic/jekyll-temp/issues"
+  },
+  "homepage": "https://github.com/24Magic/jekyll-temp#readme",
+  "dependencies": {
+    "roughjs": "^3.1.0"
+  }
+}
