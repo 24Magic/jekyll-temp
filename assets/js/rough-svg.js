@@ -1,6 +1,3 @@
-console.log(jQuery)
-console.log(rough)
-    //var roughjs = require('roughjs')
 var roughSvg = (function(rough) {
     return {
         initSvg: function() {
