@@ -822,7 +822,8 @@
             font-weight: 700;
         }
 
-        #header p .love-icon {
+        #header .love-icon,
+        #header #typed-header {
             color: #f06d6a;
         }
 
