@@ -827,6 +827,15 @@
             color: #f06d6a;
         }
 
+        #header .toggleHeart {
+            width: 300px;
+            height: 300px;
+        }
+
+            #header .toggleHeart #canvasHeart {
+                display: none;
+            }
+
 /* Footer */
 
     #footer {

@@ -1,7 +1,7 @@
 var roughSvg = (function(rough) {
     return {
         initSvg: function() {
-            const heart = document.getElementById('heart')
+            const heart = document.getElementById('svgHeart')
             const rc = rough.svg(heart);
             let node = rc.path(`M150 109
            A 60 70 30 1 1 247 176
