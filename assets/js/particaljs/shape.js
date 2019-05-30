@@ -1,8 +1,8 @@
-var gridX = 7
-var gridY = 7
 function Shape (data) {
+    this.girdX = 10
+    this.gridY = 10
     this.x = data.x
-    this. y = data.y
+    this.y = data.y
     this.size = data.size
     this.text = data.text
     this.context = data.context
@@ -21,8 +21,8 @@ Shape.prototype.getData = function () {
     //_data返回一个一个对象，是一个8位无符号整数的数组Unit8ClampedArray，包含每个像素点的rgba值
     var buffer = new Uint32Array(_data.data.buffer)
 
-    for (let i = 0; i < this.H; i += gridY) {
-        for (let j = 0; j < this.W; j += gridX) {
+    for (let i = 0; i < this.H; i += this.gridY) {
+        for (let j = 0; j < this.W; j += this.girdX) {
             if (buffer[i * H + j]) {
                 var partical = new Partical(j, i, this.context)
                 this.points.push(partical)
