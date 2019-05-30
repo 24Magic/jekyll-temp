@@ -19,8 +19,8 @@ function clear () {
 function start() {
     const data = {
         x: W / 2,
-        y: H / 2,
-        size: 212,
+        y: H / 3 * 2,
+        size: 214,
         text: text,
         context: offScreenCanvasContext,
         W: W,

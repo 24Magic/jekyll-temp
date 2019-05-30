@@ -84,7 +84,7 @@ Partical.prototype.drawPartical = function(x, y) {
     this.context.save()
     this.context.beginPath()
     this.context.fillStyle = this.color
-    this.context.arc(x + 5, y + 80, this.radius, Math.PI * 2, false)
+    this.context.arc(x + 5, y, this.radius, Math.PI * 2, false)
     this.context.closePath()
     this.context.fill()
     this.context.restore()
